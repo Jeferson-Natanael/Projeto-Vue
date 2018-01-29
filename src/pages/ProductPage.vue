@@ -21,12 +21,24 @@
         :style="{ backgroundImage: 'url(' + image + ')', width: '47%', height: '47%' }">
       </div>
     </div>
+    <div class="chart">
+      <h2>Line chart</h2>
+      <div class="uk-margin-bottom">
+        <vn-line :model="traffics"
+                :x-format="formatDate"
+                y-format=",f">
+        </vn-line>
+      </div>
+    </div>
+    <!-- ________________________________________  -->
   </div>
 </template>
 
 <script>
   import VueGallery from 'vue-gallery';
   import { mapActions, mapGetters } from 'vuex';
+  import d3 from 'd3'
+  import _ from 'lodash'
 
   export default {
     components: {
@@ -42,13 +54,37 @@
       product () {
         let id = parseInt(this.$route.params.id)
         return this.allProducts.find((p) => p.id === id) || {}
+      },
+      traffics () {
+        let id = parseInt(this.$route.params.id)
+        let product = this.allProducts.find((p) => p.id === id)
+        if(product){
+          return [
+            {
+              key: product.title,
+              area: true,
+              values: _.map(product.historic, (ph) => {
+                return {
+                  x: ph.date,
+                  y: ph.visits
+                }
+              })
+            },
+          ];
+        }else{
+          return [];
+        }
+
       }
     },
     methods: {
       ...mapActions([
         'getAllProducts',
         'addToCart'
-      ])
+      ]),
+      formatDate (d){
+        return d3.time.format('%x')(new Date(d))
+      }
     }
   }
 </script>
@@ -102,9 +138,10 @@
   float: right;
   cursor: pointer;
 }
-
-/* .btn--active .btn__content:before, .btn:focus .btn__content:before, .btn:hover .btn__content:before{
-  background-color: #e57373 !important;
-} */
-
+.chart {
+    float: left;
+    margin: 10px 20px;
+    width: 90%;
+    height: 350px;
+}
 </style>

@@ -5,8 +5,12 @@ import App from './App';
 import router from './router';
 import store from './store/index';
 import Vuetify from 'vuetify';
+import VueNVD3 from 'vue-nvd3';
+import VueNVD3Components from './components'
 import 'vuetify/dist/vuetify.min.css';
 
+Vue.use(VueNVD3);
+Vue.use(VueNVD3Components);
 Vue.use(Vuetify);
 Vue.config.productionTip = false
 
