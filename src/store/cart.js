@@ -73,7 +73,8 @@ const getters = {
         price: product.price,
         id,
         quantity,
-        inventory: product.inventory + quantity
+        inventory: product.inventory + quantity,
+        historic: product.historic
       }
     })
   },

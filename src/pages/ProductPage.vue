@@ -22,11 +22,11 @@
       </div>
     </div>
     <div class="chart">
-      <h2>Line chart</h2>
+      <h2>Histórico de Preço</h2>
       <div class="uk-margin-bottom">
         <vn-line :model="traffics"
                 :x-format="formatDate"
-                y-format=",f">
+                y-format=".2f">
         </vn-line>
       </div>
     </div>
@@ -66,7 +66,7 @@
               values: _.map(product.historic, (ph) => {
                 return {
                   x: ph.date,
-                  y: ph.visits
+                  y: ph.price
                 }
               })
             },
@@ -83,7 +83,7 @@
         'addToCart'
       ]),
       formatDate (d){
-        return d3.time.format('%x')(new Date(d))
+        return d3.time.format("%d/%m/%Y")(new Date(d))
       }
     }
   }

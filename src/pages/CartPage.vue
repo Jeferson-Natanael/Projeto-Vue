@@ -16,41 +16,50 @@
     </v-dialog>
     <p v-show="!products.length"><i>Adicione alguns produtos ao carrinho.</i></p>
     <div v-show="products.length > 0">
-    <table class="checkout-table">
-      <thead style="text-align: center">
-        <tr>
-          <th>Nome</th>
-          <th>Preço/Unidade</th>
-          <th>Quantidade</th>
-          <th>Total</th>
+      <table class="checkout-table">
+        <thead style="text-align: center">
+          <tr>
+            <th>Nome</th>
+            <th>Preço/Unidade</th>
+            <th>Quantidade</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+        <tr v-for="p in  products" :key="p.id">
+          <td>
+            <router-link :to="{name: 'product', params: {id: p.id, page: '/cart'}}">
+              <v-icon>link</v-icon>
+              <span style="margin-left: 5px;">{{ p.title }}</span>
+            </router-link>
+          </td>
+          <td>R$ {{ p.price }}</td>
+          <td>
+            <input type="number" v-model="p.quantity" min="0" :max="p.inventory">
+            <v-btn flat icon color="green" @click="refrechCart(p)">
+                <v-icon>cached</v-icon>
+            </v-btn>
+          </td>
+          <td>R$ {{ (p.price * parseInt(p.quantity)).toFixed(2) }}</td>
         </tr>
-      </thead>
-      <tbody>
-      <tr v-for="p in  products" :key="p.id">
-        <td>
-          <router-link :to="{name: 'product', params: {id: p.id, page: '/cart'}}">
-            <v-icon>link</v-icon>
-            <span style="margin-left: 5px;">{{ p.title }}</span>
-          </router-link>
-        </td>
-        <td>R$ {{ p.price }}</td>
-        <td>
-          <input type="number" v-model="p.quantity" min="0" :max="p.inventory">
-          <v-btn flat icon color="green" @click="refrechCart(p)">
-              <v-icon>cached</v-icon>
-          </v-btn>
-        </td>
-        <td>R$ {{ (p.price * parseInt(p.quantity)).toFixed(2) }}</td>
-      </tr>
-      <tr class='total'>
-        <td><b>TOTAL</b></td>
-        <td></td>
-        <td></td>
-        <td>R$ {{ total.toFixed(2) }}</td>
-      </tr>
-      </tbody>
-    </table>
-    <p><v-btn color="red lighten-2" large :disabled="!products.length" @click="checkout(products)" class='checkout-button'>Confirmar</v-btn></p>
+        <tr class='total'>
+          <td><b>TOTAL</b></td>
+          <td></td>
+          <td></td>
+          <td>R$ {{ total.toFixed(2) }}</td>
+        </tr>
+        </tbody>
+      </table>
+      <p><v-btn color="red lighten-2" large :disabled="!products.length" @click="checkout(products)" class='checkout-button'>Confirmar</v-btn></p>
+      <div class="chart">
+        <h2>Histórico de Preço</h2>
+        <div class="uk-margin-bottom">
+          <vn-line :model="traffics"
+                  :x-format="formatDate"
+                  y-format=".2f">
+          </vn-line>
+        </div>
+      </div>
     </div>
     <!-- <p v-show="checkoutStatus">Confirmação {{ checkoutStatus }}.</p> -->
   </div>
@@ -58,6 +67,8 @@
 
 <script>
   import { mapActions, mapGetters } from 'vuex';
+  import d3 from 'd3'
+  import _ from 'lodash'
 
   export default {
     computed: {
@@ -75,6 +86,24 @@
       },
       dialogConfirm (){
         return { show: false, product: null}
+      },
+      traffics () {
+        let historic = [];
+        this.products.forEach(p => { historic.push(
+           {
+              key: p.title,
+              area: false,
+              values: _.map(p.historic, (ph) => {
+                return {
+                  x: ph.date,
+                  y: ph.price
+                }
+              })
+            },
+          )
+        });
+
+        return historic
       }
     },
     methods: {
@@ -95,6 +124,9 @@
       removeCart: function (product) {
           this.removeToCart(product);
           this.dialogConfirm.show = false;
+      },
+       formatDate (d){
+        return d3.time.format("%d/%m/%Y")(new Date(d))
       }
     }
   }
@@ -144,5 +176,11 @@ input{
 
 table{
   text-align: center;
+}
+.chart {
+    float: left;
+    margin: 10px 20px;
+    width: 90%;
+    height: 350px;
 }
 </style>

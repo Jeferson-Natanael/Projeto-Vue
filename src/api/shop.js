@@ -10,220 +10,127 @@ const _products = [
     'historic': [
       {
         "date": 1456801200000,
-        "visits": 9167,
-        "views": 1968,
-        "losses": 1740,
-        "stay": 10
+        "price": 9167
       },
       {
         "date": 1456887600000,
-        "visits": 9156,
-        "views": 15743,
-        "losses": 1214,
-        "stay": 37
+        "price": 9156
       },
       {
         "date": 1456974000000,
-        "visits": 1250,
-        "views": 17082,
-        "losses": 2283,
-        "stay": 45
+        "price": 1250
       },
       {
         "date": 1457060400000,
-        "visits": 6934,
-        "views": 12792,
-        "losses": 2417,
-        "stay": 46
+        "price": 6934
       },
       {
         "date": 1457146800000,
-        "visits": 6192,
-        "views": 9829,
-        "losses": 1185,
-        "stay": 48
+        "price": 6192
       },
       {
         "date": 1457233200000,
-        "visits": 2296,
-        "views": 11466,
-        "losses": 1622,
-        "stay": 48
+        "price": 2296
       },
       {
         "date": 1457319600000,
-        "visits": 7554,
-        "views": 17613,
-        "losses": 140,
-        "stay": 16
+        "price": 7554
       },
       {
         "date": 1457406000000,
-        "visits": 3939,
-        "views": 16752,
-        "losses": 2557,
-        "stay": 30
+        "price": 3939
       },
       {
         "date": 1457492400000,
-        "visits": 6766,
-        "views": 17778,
-        "losses": 121,
-        "stay": 17
+        "price": 6766
       },
       {
         "date": 1457578800000,
-        "visits": 2035,
-        "views": 15136,
-        "losses": 1275,
-        "stay": 24
+        "price": 2035
       },
       {
         "date": 1457665200000,
-        "visits": 1552,
-        "views": 8190,
-        "losses": 2463,
-        "stay": 13
+        "price": 1552
       },
       {
         "date": 1457751600000,
-        "visits": 9107,
-        "views": 13215,
-        "losses": 1852,
-        "stay": 39
+        "price": 9107
       },
       {
         "date": 1457838000000,
-        "visits": 8547,
-        "views": 4579,
-        "losses": 239,
-        "stay": 49
+        "price": 8547
       },
       {
         "date": 1457924400000,
-        "visits": 8497,
-        "views": 11276,
-        "losses": 1836,
-        "stay": 49
+        "price": 8497
       },
       {
         "date": 1458010800000,
-        "visits": 6866,
-        "views": 8071,
-        "losses": 1520,
-        "stay": 39
+        "price": 6866
       },
       {
         "date": 1458097200000,
-        "visits": 4309,
-        "views": 3083,
-        "losses": 2154,
-        "stay": 22
+        "price": 4309
       },
       {
         "date": 1458183600000,
-        "visits": 4673,
-        "views": 10335,
-        "losses": 2494,
-        "stay": 30
+        "price": 4673
       },
       {
         "date": 1458270000000,
-        "visits": 701,
-        "views": 13927,
-        "losses": 2152,
-        "stay": 42
+        "price": 701
       },
       {
         "date": 1458356400000,
-        "visits": 8093,
-        "views": 1092,
-        "losses": 2160,
-        "stay": 4
+        "price": 809
       },
       {
         "date": 1458442800000,
-        "visits": 7156,
-        "views": 1325,
-        "losses": 2091,
-        "stay": 3
+        "price": 7156
       },
       {
         "date": 1458529200000,
-        "visits": 2531,
-        "views": 6361,
-        "losses": 2716,
-        "stay": 42
+        "price": 2531
       },
       {
         "date": 1458615600000,
-        "visits": 720,
-        "views": 7960,
-        "losses": 283,
-        "stay": 8
+        "price": 720
       },
       {
         "date": 1458702000000,
-        "visits": 4411,
-        "views": 8313,
-        "losses": 2055,
-        "stay": 35
+        "price": 4411
       },
       {
         "date": 1458788400000,
-        "visits": 8094,
-        "views": 6514,
-        "losses": 1233,
-        "stay": 15
+        "price": 8094
       },
       {
         "date": 1458874800000,
-        "visits": 9717,
-        "views": 7023,
-        "losses": 1348,
-        "stay": 21
+        "price": 9717
       },
       {
         "date": 1458961200000,
-        "visits": 2379,
-        "views": 4635,
-        "losses": 2643,
-        "stay": 23
+        "price": 2379
       },
       {
         "date": 1459047600000,
-        "visits": 7881,
-        "views": 2121,
-        "losses": 1930,
-        "stay": 29
+        "price": 7881
       },
       {
         "date": 1459134000000,
-        "visits": 7824,
-        "views": 18235,
-        "losses": 193,
-        "stay": 33
+        "price": 7824
       },
       {
         "date": 1459220400000,
-        "visits": 5558,
-        "views": 521,
-        "losses": 103,
-        "stay": 45
+        "price": 5558
       },
       {
         "date": 1459306800000,
-        "visits": 5757,
-        "views": 15221,
-        "losses": 577,
-        "stay": 38
+        "price": 5757
       },
       {
         "date": 1459393200000,
-        "visits": 3367,
-        "views": 18445,
-        "losses": 2339,
-        "stay": 37
+        "price": 500.01
       }
     ]
   },
@@ -238,220 +145,127 @@ const _products = [
     'historic': [
       {
         "date": 1456801200000,
-        "visits": 9167,
-        "views": 1968,
-        "losses": 1740,
-        "stay": 10
+        "price": 9167
       },
       {
         "date": 1456887600000,
-        "visits": 9156,
-        "views": 15743,
-        "losses": 1214,
-        "stay": 37
+        "price": 9156
       },
       {
         "date": 1456974000000,
-        "visits": 1250,
-        "views": 17082,
-        "losses": 2283,
-        "stay": 45
+        "price": 1250
       },
       {
         "date": 1457060400000,
-        "visits": 6934,
-        "views": 12792,
-        "losses": 2417,
-        "stay": 46
+        "price": 6934
       },
       {
         "date": 1457146800000,
-        "visits": 6192,
-        "views": 9829,
-        "losses": 1185,
-        "stay": 48
+        "price": 6192
       },
       {
         "date": 1457233200000,
-        "visits": 2296,
-        "views": 11466,
-        "losses": 1622,
-        "stay": 48
+        "price": 2296
       },
       {
         "date": 1457319600000,
-        "visits": 7554,
-        "views": 17613,
-        "losses": 140,
-        "stay": 16
+        "price": 7554
       },
       {
         "date": 1457406000000,
-        "visits": 3939,
-        "views": 16752,
-        "losses": 2557,
-        "stay": 30
+        "price": 3939
       },
       {
         "date": 1457492400000,
-        "visits": 6766,
-        "views": 17778,
-        "losses": 121,
-        "stay": 17
+        "price": 6766
       },
       {
         "date": 1457578800000,
-        "visits": 2035,
-        "views": 15136,
-        "losses": 1275,
-        "stay": 24
+        "price": 2035
       },
       {
         "date": 1457665200000,
-        "visits": 1552,
-        "views": 8190,
-        "losses": 2463,
-        "stay": 13
+        "price": 1552
       },
       {
         "date": 1457751600000,
-        "visits": 9107,
-        "views": 13215,
-        "losses": 1852,
-        "stay": 39
+        "price": 9107
       },
       {
         "date": 1457838000000,
-        "visits": 8547,
-        "views": 4579,
-        "losses": 239,
-        "stay": 49
+        "price": 8547
       },
       {
         "date": 1457924400000,
-        "visits": 8497,
-        "views": 11276,
-        "losses": 1836,
-        "stay": 49
+        "price": 8497
       },
       {
         "date": 1458010800000,
-        "visits": 6866,
-        "views": 8071,
-        "losses": 1520,
-        "stay": 39
+        "price": 6866
       },
       {
         "date": 1458097200000,
-        "visits": 4309,
-        "views": 3083,
-        "losses": 2154,
-        "stay": 22
+        "price": 4309
       },
       {
         "date": 1458183600000,
-        "visits": 4673,
-        "views": 10335,
-        "losses": 2494,
-        "stay": 30
+        "price": 4673
       },
       {
         "date": 1458270000000,
-        "visits": 701,
-        "views": 13927,
-        "losses": 2152,
-        "stay": 42
+        "price": 701
       },
       {
         "date": 1458356400000,
-        "visits": 8093,
-        "views": 1092,
-        "losses": 2160,
-        "stay": 4
+        "price": 809
       },
       {
         "date": 1458442800000,
-        "visits": 7156,
-        "views": 1325,
-        "losses": 2091,
-        "stay": 3
+        "price": 7156
       },
       {
         "date": 1458529200000,
-        "visits": 2531,
-        "views": 6361,
-        "losses": 2716,
-        "stay": 42
+        "price": 2531
       },
       {
         "date": 1458615600000,
-        "visits": 720,
-        "views": 7960,
-        "losses": 283,
-        "stay": 8
+        "price": 720
       },
       {
         "date": 1458702000000,
-        "visits": 4411,
-        "views": 8313,
-        "losses": 2055,
-        "stay": 35
+        "price": 4411
       },
       {
         "date": 1458788400000,
-        "visits": 8094,
-        "views": 6514,
-        "losses": 1233,
-        "stay": 15
+        "price": 8094
       },
       {
         "date": 1458874800000,
-        "visits": 9717,
-        "views": 7023,
-        "losses": 1348,
-        "stay": 21
+        "price": 9717
       },
       {
         "date": 1458961200000,
-        "visits": 2379,
-        "views": 4635,
-        "losses": 2643,
-        "stay": 23
+        "price": 2379
       },
       {
         "date": 1459047600000,
-        "visits": 7881,
-        "views": 2121,
-        "losses": 1930,
-        "stay": 29
+        "price": 7881
       },
       {
         "date": 1459134000000,
-        "visits": 7824,
-        "views": 18235,
-        "losses": 193,
-        "stay": 33
+        "price": 7824
       },
       {
         "date": 1459220400000,
-        "visits": 5558,
-        "views": 521,
-        "losses": 103,
-        "stay": 45
+        "price": 5558
       },
       {
         "date": 1459306800000,
-        "visits": 5757,
-        "views": 15221,
-        "losses": 577,
-        "stay": 38
+        "price": 5757
       },
       {
         "date": 1459393200000,
-        "visits": 3367,
-        "views": 18445,
-        "losses": 2339,
-        "stay": 37
+        "price": 2000.99
       }
     ]
   },
@@ -466,220 +280,127 @@ const _products = [
     'historic': [
       {
         "date": 1456801200000,
-        "visits": 9167,
-        "views": 1968,
-        "losses": 1740,
-        "stay": 10
+        "price": 9167
       },
       {
         "date": 1456887600000,
-        "visits": 9156,
-        "views": 15743,
-        "losses": 1214,
-        "stay": 37
+        "price": 9156
       },
       {
         "date": 1456974000000,
-        "visits": 1250,
-        "views": 17082,
-        "losses": 2283,
-        "stay": 45
+        "price": 1250
       },
       {
         "date": 1457060400000,
-        "visits": 6934,
-        "views": 12792,
-        "losses": 2417,
-        "stay": 46
+        "price": 6934
       },
       {
         "date": 1457146800000,
-        "visits": 6192,
-        "views": 9829,
-        "losses": 1185,
-        "stay": 48
+        "price": 6192
       },
       {
         "date": 1457233200000,
-        "visits": 2296,
-        "views": 11466,
-        "losses": 1622,
-        "stay": 48
+        "price": 2296
       },
       {
         "date": 1457319600000,
-        "visits": 7554,
-        "views": 17613,
-        "losses": 140,
-        "stay": 16
+        "price": 7554
       },
       {
         "date": 1457406000000,
-        "visits": 3939,
-        "views": 16752,
-        "losses": 2557,
-        "stay": 30
+        "price": 3939
       },
       {
         "date": 1457492400000,
-        "visits": 6766,
-        "views": 17778,
-        "losses": 121,
-        "stay": 17
+        "price": 6766
       },
       {
         "date": 1457578800000,
-        "visits": 2035,
-        "views": 15136,
-        "losses": 1275,
-        "stay": 24
+        "price": 2035
       },
       {
         "date": 1457665200000,
-        "visits": 1552,
-        "views": 8190,
-        "losses": 2463,
-        "stay": 13
+        "price": 1552
       },
       {
         "date": 1457751600000,
-        "visits": 9107,
-        "views": 13215,
-        "losses": 1852,
-        "stay": 39
+        "price": 9107
       },
       {
         "date": 1457838000000,
-        "visits": 8547,
-        "views": 4579,
-        "losses": 239,
-        "stay": 49
+        "price": 8547
       },
       {
         "date": 1457924400000,
-        "visits": 8497,
-        "views": 11276,
-        "losses": 1836,
-        "stay": 49
+        "price": 8497
       },
       {
         "date": 1458010800000,
-        "visits": 6866,
-        "views": 8071,
-        "losses": 1520,
-        "stay": 39
+        "price": 6866
       },
       {
         "date": 1458097200000,
-        "visits": 4309,
-        "views": 3083,
-        "losses": 2154,
-        "stay": 22
+        "price": 4309
       },
       {
         "date": 1458183600000,
-        "visits": 4673,
-        "views": 10335,
-        "losses": 2494,
-        "stay": 30
+        "price": 4673
       },
       {
         "date": 1458270000000,
-        "visits": 701,
-        "views": 13927,
-        "losses": 2152,
-        "stay": 42
+        "price": 701
       },
       {
         "date": 1458356400000,
-        "visits": 8093,
-        "views": 1092,
-        "losses": 2160,
-        "stay": 4
+        "price": 809
       },
       {
         "date": 1458442800000,
-        "visits": 7156,
-        "views": 1325,
-        "losses": 2091,
-        "stay": 3
+        "price": 7156
       },
       {
         "date": 1458529200000,
-        "visits": 2531,
-        "views": 6361,
-        "losses": 2716,
-        "stay": 42
+        "price": 2531
       },
       {
         "date": 1458615600000,
-        "visits": 720,
-        "views": 7960,
-        "losses": 283,
-        "stay": 8
+        "price": 720
       },
       {
         "date": 1458702000000,
-        "visits": 4411,
-        "views": 8313,
-        "losses": 2055,
-        "stay": 35
+        "price": 4411
       },
       {
         "date": 1458788400000,
-        "visits": 8094,
-        "views": 6514,
-        "losses": 1233,
-        "stay": 15
+        "price": 8094
       },
       {
         "date": 1458874800000,
-        "visits": 9717,
-        "views": 7023,
-        "losses": 1348,
-        "stay": 21
+        "price": 9717
       },
       {
         "date": 1458961200000,
-        "visits": 2379,
-        "views": 4635,
-        "losses": 2643,
-        "stay": 23
+        "price": 2379
       },
       {
         "date": 1459047600000,
-        "visits": 7881,
-        "views": 2121,
-        "losses": 1930,
-        "stay": 29
+        "price": 7881
       },
       {
         "date": 1459134000000,
-        "visits": 7824,
-        "views": 18235,
-        "losses": 193,
-        "stay": 33
+        "price": 7824
       },
       {
         "date": 1459220400000,
-        "visits": 5558,
-        "views": 521,
-        "losses": 103,
-        "stay": 45
+        "price": 5558
       },
       {
         "date": 1459306800000,
-        "visits": 5757,
-        "views": 15221,
-        "losses": 577,
-        "stay": 38
+        "price": 5757
       },
       {
         "date": 1459393200000,
-        "visits": 3367,
-        "views": 18445,
-        "losses": 2339,
-        "stay": 37
+        "price": 790.99
       }
     ]
   },
@@ -694,220 +415,127 @@ const _products = [
     'historic': [
       {
         "date": 1456801200000,
-        "visits": 9167,
-        "views": 1968,
-        "losses": 1740,
-        "stay": 10
+        "price": 9167
       },
       {
         "date": 1456887600000,
-        "visits": 9156,
-        "views": 15743,
-        "losses": 1214,
-        "stay": 37
+        "price": 9156
       },
       {
         "date": 1456974000000,
-        "visits": 1250,
-        "views": 17082,
-        "losses": 2283,
-        "stay": 45
+        "price": 1250
       },
       {
         "date": 1457060400000,
-        "visits": 6934,
-        "views": 12792,
-        "losses": 2417,
-        "stay": 46
+        "price": 6934
       },
       {
         "date": 1457146800000,
-        "visits": 6192,
-        "views": 9829,
-        "losses": 1185,
-        "stay": 48
+        "price": 6192
       },
       {
         "date": 1457233200000,
-        "visits": 2296,
-        "views": 11466,
-        "losses": 1622,
-        "stay": 48
+        "price": 2296
       },
       {
         "date": 1457319600000,
-        "visits": 7554,
-        "views": 17613,
-        "losses": 140,
-        "stay": 16
+        "price": 7554
       },
       {
         "date": 1457406000000,
-        "visits": 3939,
-        "views": 16752,
-        "losses": 2557,
-        "stay": 30
+        "price": 3939
       },
       {
         "date": 1457492400000,
-        "visits": 6766,
-        "views": 17778,
-        "losses": 121,
-        "stay": 17
+        "price": 6766
       },
       {
         "date": 1457578800000,
-        "visits": 2035,
-        "views": 15136,
-        "losses": 1275,
-        "stay": 24
+        "price": 2035
       },
       {
         "date": 1457665200000,
-        "visits": 1552,
-        "views": 8190,
-        "losses": 2463,
-        "stay": 13
+        "price": 1552
       },
       {
         "date": 1457751600000,
-        "visits": 9107,
-        "views": 13215,
-        "losses": 1852,
-        "stay": 39
+        "price": 9107
       },
       {
         "date": 1457838000000,
-        "visits": 8547,
-        "views": 4579,
-        "losses": 239,
-        "stay": 49
+        "price": 8547
       },
       {
         "date": 1457924400000,
-        "visits": 8497,
-        "views": 11276,
-        "losses": 1836,
-        "stay": 49
+        "price": 8497
       },
       {
         "date": 1458010800000,
-        "visits": 6866,
-        "views": 8071,
-        "losses": 1520,
-        "stay": 39
+        "price": 6866
       },
       {
         "date": 1458097200000,
-        "visits": 4309,
-        "views": 3083,
-        "losses": 2154,
-        "stay": 22
+        "price": 4309
       },
       {
         "date": 1458183600000,
-        "visits": 4673,
-        "views": 10335,
-        "losses": 2494,
-        "stay": 30
+        "price": 4673
       },
       {
         "date": 1458270000000,
-        "visits": 701,
-        "views": 13927,
-        "losses": 2152,
-        "stay": 42
+        "price": 701
       },
       {
         "date": 1458356400000,
-        "visits": 8093,
-        "views": 1092,
-        "losses": 2160,
-        "stay": 4
+        "price": 809
       },
       {
         "date": 1458442800000,
-        "visits": 7156,
-        "views": 1325,
-        "losses": 2091,
-        "stay": 3
+        "price": 7156
       },
       {
         "date": 1458529200000,
-        "visits": 2531,
-        "views": 6361,
-        "losses": 2716,
-        "stay": 42
+        "price": 2531
       },
       {
         "date": 1458615600000,
-        "visits": 720,
-        "views": 7960,
-        "losses": 283,
-        "stay": 8
+        "price": 720
       },
       {
         "date": 1458702000000,
-        "visits": 4411,
-        "views": 8313,
-        "losses": 2055,
-        "stay": 35
+        "price": 4411
       },
       {
         "date": 1458788400000,
-        "visits": 8094,
-        "views": 6514,
-        "losses": 1233,
-        "stay": 15
+        "price": 8094
       },
       {
         "date": 1458874800000,
-        "visits": 9717,
-        "views": 7023,
-        "losses": 1348,
-        "stay": 21
+        "price": 9717
       },
       {
         "date": 1458961200000,
-        "visits": 2379,
-        "views": 4635,
-        "losses": 2643,
-        "stay": 23
+        "price": 2379
       },
       {
         "date": 1459047600000,
-        "visits": 7881,
-        "views": 2121,
-        "losses": 1930,
-        "stay": 29
+        "price": 7881
       },
       {
         "date": 1459134000000,
-        "visits": 7824,
-        "views": 18235,
-        "losses": 193,
-        "stay": 33
+        "price": 7824
       },
       {
         "date": 1459220400000,
-        "visits": 5558,
-        "views": 521,
-        "losses": 103,
-        "stay": 45
+        "price": 5558
       },
       {
         "date": 1459306800000,
-        "visits": 5757,
-        "views": 15221,
-        "losses": 577,
-        "stay": 38
+        "price": 5757
       },
       {
         "date": 1459393200000,
-        "visits": 3367,
-        "views": 18445,
-        "losses": 2339,
-        "stay": 37
+        "price": 1390.99
       }
     ]
   },
@@ -922,220 +550,127 @@ const _products = [
     'historic': [
       {
         "date": 1456801200000,
-        "visits": 9167,
-        "views": 1968,
-        "losses": 1740,
-        "stay": 10
+        "price": 9167
       },
       {
         "date": 1456887600000,
-        "visits": 9156,
-        "views": 15743,
-        "losses": 1214,
-        "stay": 37
+        "price": 9156
       },
       {
         "date": 1456974000000,
-        "visits": 1250,
-        "views": 17082,
-        "losses": 2283,
-        "stay": 45
+        "price": 1250
       },
       {
         "date": 1457060400000,
-        "visits": 6934,
-        "views": 12792,
-        "losses": 2417,
-        "stay": 46
+        "price": 6934
       },
       {
         "date": 1457146800000,
-        "visits": 6192,
-        "views": 9829,
-        "losses": 1185,
-        "stay": 48
+        "price": 6192
       },
       {
         "date": 1457233200000,
-        "visits": 2296,
-        "views": 11466,
-        "losses": 1622,
-        "stay": 48
+        "price": 2296
       },
       {
         "date": 1457319600000,
-        "visits": 7554,
-        "views": 17613,
-        "losses": 140,
-        "stay": 16
+        "price": 7554
       },
       {
         "date": 1457406000000,
-        "visits": 3939,
-        "views": 16752,
-        "losses": 2557,
-        "stay": 30
+        "price": 3939
       },
       {
         "date": 1457492400000,
-        "visits": 6766,
-        "views": 17778,
-        "losses": 121,
-        "stay": 17
+        "price": 6766
       },
       {
         "date": 1457578800000,
-        "visits": 2035,
-        "views": 15136,
-        "losses": 1275,
-        "stay": 24
+        "price": 2035
       },
       {
         "date": 1457665200000,
-        "visits": 1552,
-        "views": 8190,
-        "losses": 2463,
-        "stay": 13
+        "price": 1552
       },
       {
         "date": 1457751600000,
-        "visits": 9107,
-        "views": 13215,
-        "losses": 1852,
-        "stay": 39
+        "price": 9107
       },
       {
         "date": 1457838000000,
-        "visits": 8547,
-        "views": 4579,
-        "losses": 239,
-        "stay": 49
+        "price": 8547
       },
       {
         "date": 1457924400000,
-        "visits": 8497,
-        "views": 11276,
-        "losses": 1836,
-        "stay": 49
+        "price": 8497
       },
       {
         "date": 1458010800000,
-        "visits": 6866,
-        "views": 8071,
-        "losses": 1520,
-        "stay": 39
+        "price": 6866
       },
       {
         "date": 1458097200000,
-        "visits": 4309,
-        "views": 3083,
-        "losses": 2154,
-        "stay": 22
+        "price": 4309
       },
       {
         "date": 1458183600000,
-        "visits": 4673,
-        "views": 10335,
-        "losses": 2494,
-        "stay": 30
+        "price": 4673
       },
       {
         "date": 1458270000000,
-        "visits": 701,
-        "views": 13927,
-        "losses": 2152,
-        "stay": 42
+        "price": 701
       },
       {
         "date": 1458356400000,
-        "visits": 8093,
-        "views": 1092,
-        "losses": 2160,
-        "stay": 4
+        "price": 809
       },
       {
         "date": 1458442800000,
-        "visits": 7156,
-        "views": 1325,
-        "losses": 2091,
-        "stay": 3
+        "price": 7156
       },
       {
         "date": 1458529200000,
-        "visits": 2531,
-        "views": 6361,
-        "losses": 2716,
-        "stay": 42
+        "price": 2531
       },
       {
         "date": 1458615600000,
-        "visits": 720,
-        "views": 7960,
-        "losses": 283,
-        "stay": 8
+        "price": 720
       },
       {
         "date": 1458702000000,
-        "visits": 4411,
-        "views": 8313,
-        "losses": 2055,
-        "stay": 35
+        "price": 4411
       },
       {
         "date": 1458788400000,
-        "visits": 8094,
-        "views": 6514,
-        "losses": 1233,
-        "stay": 15
+        "price": 8094
       },
       {
         "date": 1458874800000,
-        "visits": 9717,
-        "views": 7023,
-        "losses": 1348,
-        "stay": 21
+        "price": 9717
       },
       {
         "date": 1458961200000,
-        "visits": 2379,
-        "views": 4635,
-        "losses": 2643,
-        "stay": 23
+        "price": 2379
       },
       {
         "date": 1459047600000,
-        "visits": 7881,
-        "views": 2121,
-        "losses": 1930,
-        "stay": 29
+        "price": 7881
       },
       {
         "date": 1459134000000,
-        "visits": 7824,
-        "views": 18235,
-        "losses": 193,
-        "stay": 33
+        "price": 7824
       },
       {
         "date": 1459220400000,
-        "visits": 5558,
-        "views": 521,
-        "losses": 103,
-        "stay": 45
+        "price": 5558
       },
       {
         "date": 1459306800000,
-        "visits": 5757,
-        "views": 15221,
-        "losses": 577,
-        "stay": 38
+        "price": 5757
       },
       {
         "date": 1459393200000,
-        "visits": 3367,
-        "views": 18445,
-        "losses": 2339,
-        "stay": 37
+        "price": 3010.53
       }
     ]
   },
@@ -1150,220 +685,115 @@ const _products = [
     'historic': [
       {
         "date": 1456801200000,
-        "visits": 9167,
-        "views": 1968,
-        "losses": 1740,
-        "stay": 10
+        "price": 9167
       },
       {
         "date": 1456887600000,
-        "visits": 9156,
-        "views": 15743,
-        "losses": 1214,
-        "stay": 37
+        "price": 9156
       },
       {
         "date": 1456974000000,
-        "visits": 1250,
-        "views": 17082,
-        "losses": 2283,
-        "stay": 45
+        "price": 1250
       },
       {
         "date": 1457060400000,
-        "visits": 6934,
-        "views": 12792,
-        "losses": 2417,
-        "stay": 46
+        "price": 6934
       },
       {
         "date": 1457146800000,
-        "visits": 6192,
-        "views": 9829,
-        "losses": 1185,
-        "stay": 48
+        "price": 6192
       },
       {
         "date": 1457233200000,
-        "visits": 2296,
-        "views": 11466,
-        "losses": 1622,
-        "stay": 48
+        "price": 2296
       },
       {
         "date": 1457319600000,
-        "visits": 7554,
-        "views": 17613,
-        "losses": 140,
-        "stay": 16
+        "price": 7554
       },
       {
         "date": 1457406000000,
-        "visits": 3939,
-        "views": 16752,
-        "losses": 2557,
-        "stay": 30
+        "price": 3939
       },
       {
         "date": 1457492400000,
-        "visits": 6766,
-        "views": 17778,
-        "losses": 121,
-        "stay": 17
+        "price": 6766
       },
       {
         "date": 1457578800000,
-        "visits": 2035,
-        "views": 15136,
-        "losses": 1275,
-        "stay": 24
+        "price": 2035
       },
       {
         "date": 1457665200000,
-        "visits": 1552,
-        "views": 8190,
-        "losses": 2463,
-        "stay": 13
+        "price": 1552
       },
       {
         "date": 1457751600000,
-        "visits": 9107,
-        "views": 13215,
-        "losses": 1852,
-        "stay": 39
+        "price": 9107
       },
       {
         "date": 1457838000000,
-        "visits": 8547,
-        "views": 4579,
-        "losses": 239,
-        "stay": 49
+        "price": 8547
       },
       {
         "date": 1457924400000,
-        "visits": 8497,
-        "views": 11276,
-        "losses": 1836,
-        "stay": 49
+        "price": 8497
       },
       {
         "date": 1458010800000,
-        "visits": 6866,
-        "views": 8071,
-        "losses": 1520,
-        "stay": 39
+        "price": 6866
       },
       {
         "date": 1458097200000,
-        "visits": 4309,
-        "views": 3083,
-        "losses": 2154,
-        "stay": 22
+        "price": 4309
       },
       {
         "date": 1458183600000,
-        "visits": 4673,
-        "views": 10335,
-        "losses": 2494,
-        "stay": 30
+        "price": 4673
       },
       {
         "date": 1458270000000,
-        "visits": 701,
-        "views": 13927,
-        "losses": 2152,
-        "stay": 42
+        "price": 701
       },
       {
         "date": 1458356400000,
-        "visits": 8093,
-        "views": 1092,
-        "losses": 2160,
-        "stay": 4
+        "price": 809
       },
       {
         "date": 1458442800000,
-        "visits": 7156,
-        "views": 1325,
-        "losses": 2091,
-        "stay": 3
+        "price": 7156
       },
       {
         "date": 1458529200000,
-        "visits": 2531,
-        "views": 6361,
-        "losses": 2716,
-        "stay": 42
+        "price": 2531
       },
       {
         "date": 1458615600000,
-        "visits": 720,
-        "views": 7960,
-        "losses": 283,
-        "stay": 8
+        "price": 720
       },
       {
         "date": 1458702000000,
-        "visits": 4411,
-        "views": 8313,
-        "losses": 2055,
-        "stay": 35
-      },
-      {
-        "date": 1458788400000,
-        "visits": 8094,
-        "views": 6514,
-        "losses": 1233,
-        "stay": 15
-      },
-      {
-        "date": 1458874800000,
-        "visits": 9717,
-        "views": 7023,
-        "losses": 1348,
-        "stay": 21
-      },
-      {
-        "date": 1458961200000,
-        "visits": 2379,
-        "views": 4635,
-        "losses": 2643,
-        "stay": 23
+        "price": 2379
       },
       {
         "date": 1459047600000,
-        "visits": 7881,
-        "views": 2121,
-        "losses": 1930,
-        "stay": 29
+        "price": 7881
       },
       {
         "date": 1459134000000,
-        "visits": 7824,
-        "views": 18235,
-        "losses": 193,
-        "stay": 33
+        "price": 7824
       },
       {
         "date": 1459220400000,
-        "visits": 5558,
-        "views": 521,
-        "losses": 103,
-        "stay": 45
+        "price": 5558
       },
       {
         "date": 1459306800000,
-        "visits": 5757,
-        "views": 15221,
-        "losses": 577,
-        "stay": 38
+        "price": 5757
       },
       {
         "date": 1459393200000,
-        "visits": 3367,
-        "views": 18445,
-        "losses": 2339,
-        "stay": 37
+        "price": 5250.33
       }
     ]
   },
@@ -1378,220 +808,111 @@ const _products = [
     'historic': [
       {
         "date": 1456801200000,
-        "visits": 9167,
-        "views": 1968,
-        "losses": 1740,
-        "stay": 10
+        "price": 9167
       },
       {
         "date": 1456887600000,
-        "visits": 9156,
-        "views": 15743,
-        "losses": 1214,
-        "stay": 37
+        "price": 9156
       },
       {
         "date": 1456974000000,
-        "visits": 1250,
-        "views": 17082,
-        "losses": 2283,
-        "stay": 45
+        "price": 1250
       },
       {
         "date": 1457060400000,
-        "visits": 6934,
-        "views": 12792,
-        "losses": 2417,
-        "stay": 46
+        "price": 6934
       },
       {
         "date": 1457146800000,
-        "visits": 6192,
-        "views": 9829,
-        "losses": 1185,
-        "stay": 48
+        "price": 6192
       },
       {
         "date": 1457233200000,
-        "visits": 2296,
-        "views": 11466,
-        "losses": 1622,
-        "stay": 48
+        "price": 2296
       },
       {
         "date": 1457319600000,
-        "visits": 7554,
-        "views": 17613,
-        "losses": 140,
-        "stay": 16
+        "price": 7554
       },
       {
         "date": 1457406000000,
-        "visits": 3939,
-        "views": 16752,
-        "losses": 2557,
-        "stay": 30
+        "price": 3939
       },
       {
         "date": 1457492400000,
-        "visits": 6766,
-        "views": 17778,
-        "losses": 121,
-        "stay": 17
+        "price": 6766
       },
       {
         "date": 1457578800000,
-        "visits": 2035,
-        "views": 15136,
-        "losses": 1275,
-        "stay": 24
+        "price": 2035
       },
       {
         "date": 1457665200000,
-        "visits": 1552,
-        "views": 8190,
-        "losses": 2463,
-        "stay": 13
+        "price": 1552
       },
       {
         "date": 1457751600000,
-        "visits": 9107,
-        "views": 13215,
-        "losses": 1852,
-        "stay": 39
+        "price": 9107
       },
       {
         "date": 1457838000000,
-        "visits": 8547,
-        "views": 4579,
-        "losses": 239,
-        "stay": 49
+        "price": 8547
       },
       {
         "date": 1457924400000,
-        "visits": 8497,
-        "views": 11276,
-        "losses": 1836,
-        "stay": 49
+        "price": 8497
       },
       {
         "date": 1458010800000,
-        "visits": 6866,
-        "views": 8071,
-        "losses": 1520,
-        "stay": 39
+        "price": 6866
       },
       {
         "date": 1458097200000,
-        "visits": 4309,
-        "views": 3083,
-        "losses": 2154,
-        "stay": 22
+        "price": 4309
       },
       {
         "date": 1458183600000,
-        "visits": 4673,
-        "views": 10335,
-        "losses": 2494,
-        "stay": 30
+        "price": 4673
       },
       {
         "date": 1458270000000,
-        "visits": 701,
-        "views": 13927,
-        "losses": 2152,
-        "stay": 42
+        "price": 701
       },
       {
         "date": 1458356400000,
-        "visits": 8093,
-        "views": 1092,
-        "losses": 2160,
-        "stay": 4
+        "price": 809
       },
       {
         "date": 1458442800000,
-        "visits": 7156,
-        "views": 1325,
-        "losses": 2091,
-        "stay": 3
+        "price": 7156
       },
       {
         "date": 1458529200000,
-        "visits": 2531,
-        "views": 6361,
-        "losses": 2716,
-        "stay": 42
+        "price": 2531
       },
       {
         "date": 1458615600000,
-        "visits": 720,
-        "views": 7960,
-        "losses": 283,
-        "stay": 8
+        "price": 720
       },
       {
         "date": 1458702000000,
-        "visits": 4411,
-        "views": 8313,
-        "losses": 2055,
-        "stay": 35
-      },
-      {
-        "date": 1458788400000,
-        "visits": 8094,
-        "views": 6514,
-        "losses": 1233,
-        "stay": 15
-      },
-      {
-        "date": 1458874800000,
-        "visits": 9717,
-        "views": 7023,
-        "losses": 1348,
-        "stay": 21
-      },
-      {
-        "date": 1458961200000,
-        "visits": 2379,
-        "views": 4635,
-        "losses": 2643,
-        "stay": 23
-      },
-      {
-        "date": 1459047600000,
-        "visits": 7881,
-        "views": 2121,
-        "losses": 1930,
-        "stay": 29
+        "price": 7881
       },
       {
         "date": 1459134000000,
-        "visits": 7824,
-        "views": 18235,
-        "losses": 193,
-        "stay": 33
+        "price": 7824
       },
       {
         "date": 1459220400000,
-        "visits": 5558,
-        "views": 521,
-        "losses": 103,
-        "stay": 45
+        "price": 5558
       },
       {
         "date": 1459306800000,
-        "visits": 5757,
-        "views": 15221,
-        "losses": 577,
-        "stay": 38
+        "price": 5757
       },
       {
         "date": 1459393200000,
-        "visits": 3367,
-        "views": 18445,
-        "losses": 2339,
-        "stay": 37
+        "price": 1250.80
       }
     ]
   },
@@ -1606,220 +927,127 @@ const _products = [
     'historic': [
       {
         "date": 1456801200000,
-        "visits": 9167,
-        "views": 1968,
-        "losses": 1740,
-        "stay": 10
+        "price": 9167
       },
       {
         "date": 1456887600000,
-        "visits": 9156,
-        "views": 15743,
-        "losses": 1214,
-        "stay": 37
+        "price": 9156
       },
       {
         "date": 1456974000000,
-        "visits": 1250,
-        "views": 17082,
-        "losses": 2283,
-        "stay": 45
+        "price": 1250
       },
       {
         "date": 1457060400000,
-        "visits": 6934,
-        "views": 12792,
-        "losses": 2417,
-        "stay": 46
+        "price": 6934
       },
       {
         "date": 1457146800000,
-        "visits": 6192,
-        "views": 9829,
-        "losses": 1185,
-        "stay": 48
+        "price": 6192
       },
       {
         "date": 1457233200000,
-        "visits": 2296,
-        "views": 11466,
-        "losses": 1622,
-        "stay": 48
+        "price": 2296
       },
       {
         "date": 1457319600000,
-        "visits": 7554,
-        "views": 17613,
-        "losses": 140,
-        "stay": 16
+        "price": 7554
       },
       {
         "date": 1457406000000,
-        "visits": 3939,
-        "views": 16752,
-        "losses": 2557,
-        "stay": 30
+        "price": 3939
       },
       {
         "date": 1457492400000,
-        "visits": 6766,
-        "views": 17778,
-        "losses": 121,
-        "stay": 17
+        "price": 6766
       },
       {
         "date": 1457578800000,
-        "visits": 2035,
-        "views": 15136,
-        "losses": 1275,
-        "stay": 24
+        "price": 2035
       },
       {
         "date": 1457665200000,
-        "visits": 1552,
-        "views": 8190,
-        "losses": 2463,
-        "stay": 13
+        "price": 1552
       },
       {
         "date": 1457751600000,
-        "visits": 9107,
-        "views": 13215,
-        "losses": 1852,
-        "stay": 39
+        "price": 9107
       },
       {
         "date": 1457838000000,
-        "visits": 8547,
-        "views": 4579,
-        "losses": 239,
-        "stay": 49
+        "price": 8547
       },
       {
         "date": 1457924400000,
-        "visits": 8497,
-        "views": 11276,
-        "losses": 1836,
-        "stay": 49
+        "price": 8497
       },
       {
         "date": 1458010800000,
-        "visits": 6866,
-        "views": 8071,
-        "losses": 1520,
-        "stay": 39
+        "price": 6866
       },
       {
         "date": 1458097200000,
-        "visits": 4309,
-        "views": 3083,
-        "losses": 2154,
-        "stay": 22
+        "price": 4309
       },
       {
         "date": 1458183600000,
-        "visits": 4673,
-        "views": 10335,
-        "losses": 2494,
-        "stay": 30
+        "price": 4673
       },
       {
         "date": 1458270000000,
-        "visits": 701,
-        "views": 13927,
-        "losses": 2152,
-        "stay": 42
+        "price": 701
       },
       {
         "date": 1458356400000,
-        "visits": 8093,
-        "views": 1092,
-        "losses": 2160,
-        "stay": 4
+        "price": 809
       },
       {
         "date": 1458442800000,
-        "visits": 7156,
-        "views": 1325,
-        "losses": 2091,
-        "stay": 3
+        "price": 7156
       },
       {
         "date": 1458529200000,
-        "visits": 2531,
-        "views": 6361,
-        "losses": 2716,
-        "stay": 42
+        "price": 2531
       },
       {
         "date": 1458615600000,
-        "visits": 720,
-        "views": 7960,
-        "losses": 283,
-        "stay": 8
+        "price": 720
       },
       {
         "date": 1458702000000,
-        "visits": 4411,
-        "views": 8313,
-        "losses": 2055,
-        "stay": 35
+        "price": 4411
       },
       {
         "date": 1458788400000,
-        "visits": 8094,
-        "views": 6514,
-        "losses": 1233,
-        "stay": 15
+        "price": 8094
       },
       {
         "date": 1458874800000,
-        "visits": 9717,
-        "views": 7023,
-        "losses": 1348,
-        "stay": 21
+        "price": 9717
       },
       {
         "date": 1458961200000,
-        "visits": 2379,
-        "views": 4635,
-        "losses": 2643,
-        "stay": 23
+        "price": 2379
       },
       {
         "date": 1459047600000,
-        "visits": 7881,
-        "views": 2121,
-        "losses": 1930,
-        "stay": 29
+        "price": 7881
       },
       {
         "date": 1459134000000,
-        "visits": 7824,
-        "views": 18235,
-        "losses": 193,
-        "stay": 33
+        "price": 7824
       },
       {
         "date": 1459220400000,
-        "visits": 5558,
-        "views": 521,
-        "losses": 103,
-        "stay": 45
+        "price": 5558
       },
       {
         "date": 1459306800000,
-        "visits": 5757,
-        "views": 15221,
-        "losses": 577,
-        "stay": 38
+        "price": 5757
       },
       {
         "date": 1459393200000,
-        "visits": 3367,
-        "views": 18445,
-        "losses": 2339,
-        "stay": 37
+        "price": 390.90
       }
     ]
   },
@@ -1834,220 +1062,127 @@ const _products = [
     'historic': [
       {
         "date": 1456801200000,
-        "visits": 9167,
-        "views": 1968,
-        "losses": 1740,
-        "stay": 10
+        "price": 9167
       },
       {
         "date": 1456887600000,
-        "visits": 9156,
-        "views": 15743,
-        "losses": 1214,
-        "stay": 37
+        "price": 9156
       },
       {
         "date": 1456974000000,
-        "visits": 1250,
-        "views": 17082,
-        "losses": 2283,
-        "stay": 45
+        "price": 1250
       },
       {
         "date": 1457060400000,
-        "visits": 6934,
-        "views": 12792,
-        "losses": 2417,
-        "stay": 46
+        "price": 6934
       },
       {
         "date": 1457146800000,
-        "visits": 6192,
-        "views": 9829,
-        "losses": 1185,
-        "stay": 48
+        "price": 6192
       },
       {
         "date": 1457233200000,
-        "visits": 2296,
-        "views": 11466,
-        "losses": 1622,
-        "stay": 48
+        "price": 2296
       },
       {
         "date": 1457319600000,
-        "visits": 7554,
-        "views": 17613,
-        "losses": 140,
-        "stay": 16
+        "price": 7554
       },
       {
         "date": 1457406000000,
-        "visits": 3939,
-        "views": 16752,
-        "losses": 2557,
-        "stay": 30
+        "price": 3939
       },
       {
         "date": 1457492400000,
-        "visits": 6766,
-        "views": 17778,
-        "losses": 121,
-        "stay": 17
+        "price": 6766
       },
       {
         "date": 1457578800000,
-        "visits": 2035,
-        "views": 15136,
-        "losses": 1275,
-        "stay": 24
+        "price": 2035
       },
       {
         "date": 1457665200000,
-        "visits": 1552,
-        "views": 8190,
-        "losses": 2463,
-        "stay": 13
+        "price": 1552
       },
       {
         "date": 1457751600000,
-        "visits": 9107,
-        "views": 13215,
-        "losses": 1852,
-        "stay": 39
+        "price": 9107
       },
       {
         "date": 1457838000000,
-        "visits": 8547,
-        "views": 4579,
-        "losses": 239,
-        "stay": 49
+        "price": 8547
       },
       {
         "date": 1457924400000,
-        "visits": 8497,
-        "views": 11276,
-        "losses": 1836,
-        "stay": 49
+        "price": 8497
       },
       {
         "date": 1458010800000,
-        "visits": 6866,
-        "views": 8071,
-        "losses": 1520,
-        "stay": 39
+        "price": 6866
       },
       {
         "date": 1458097200000,
-        "visits": 4309,
-        "views": 3083,
-        "losses": 2154,
-        "stay": 22
+        "price": 4309
       },
       {
         "date": 1458183600000,
-        "visits": 4673,
-        "views": 10335,
-        "losses": 2494,
-        "stay": 30
+        "price": 4673
       },
       {
         "date": 1458270000000,
-        "visits": 701,
-        "views": 13927,
-        "losses": 2152,
-        "stay": 42
+        "price": 701
       },
       {
         "date": 1458356400000,
-        "visits": 8093,
-        "views": 1092,
-        "losses": 2160,
-        "stay": 4
+        "price": 809
       },
       {
         "date": 1458442800000,
-        "visits": 7156,
-        "views": 1325,
-        "losses": 2091,
-        "stay": 3
+        "price": 7156
       },
       {
         "date": 1458529200000,
-        "visits": 2531,
-        "views": 6361,
-        "losses": 2716,
-        "stay": 42
+        "price": 2531
       },
       {
         "date": 1458615600000,
-        "visits": 720,
-        "views": 7960,
-        "losses": 283,
-        "stay": 8
+        "price": 720
       },
       {
         "date": 1458702000000,
-        "visits": 4411,
-        "views": 8313,
-        "losses": 2055,
-        "stay": 35
+        "price": 4411
       },
       {
         "date": 1458788400000,
-        "visits": 8094,
-        "views": 6514,
-        "losses": 1233,
-        "stay": 15
+        "price": 8094
       },
       {
         "date": 1458874800000,
-        "visits": 9717,
-        "views": 7023,
-        "losses": 1348,
-        "stay": 21
+        "price": 9717
       },
       {
         "date": 1458961200000,
-        "visits": 2379,
-        "views": 4635,
-        "losses": 2643,
-        "stay": 23
+        "price": 2379
       },
       {
         "date": 1459047600000,
-        "visits": 7881,
-        "views": 2121,
-        "losses": 1930,
-        "stay": 29
+        "price": 7881
       },
       {
         "date": 1459134000000,
-        "visits": 7824,
-        "views": 18235,
-        "losses": 193,
-        "stay": 33
+        "price": 7824
       },
       {
         "date": 1459220400000,
-        "visits": 5558,
-        "views": 521,
-        "losses": 103,
-        "stay": 45
+        "price": 5558
       },
       {
         "date": 1459306800000,
-        "visits": 5757,
-        "views": 15221,
-        "losses": 577,
-        "stay": 38
+        "price": 5757
       },
       {
         "date": 1459393200000,
-        "visits": 3367,
-        "views": 18445,
-        "losses": 2339,
-        "stay": 37
+        "price": 590
       }
     ]
   },
