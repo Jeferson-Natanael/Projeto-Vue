@@ -3,7 +3,8 @@ import shop from '@/api/shop'
 const state = {
   added: [],
   lastCheckout: null,
-  dialog: {show: false, message: '', title: '', icon: '', type: '', color: ''}
+  dialog: {show: false, message: '', title: '', icon: '', type: '', color: ''},
+  dialogConfirm: {show: false, product: null}
 }
 
 const actions = {
@@ -87,6 +88,9 @@ const getters = {
   },
   dialog (state) {
     return state.dialog;
+  },
+  dialogConfirm (state) {
+    return state.dialogConfirm;
   }
 }
 

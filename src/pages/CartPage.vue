@@ -14,7 +14,10 @@
         </center>
       </v-card>
     </v-dialog>
-    <p v-show="!products.length"><i>Adicione alguns produtos ao carrinho.</i></p>
+    <div v-show="!products.length" class="cartNull">
+      <img src="../assets/shop-cart-icon.png"/>
+      <p>Adicione alguns produtos ao carrinho.</p>
+    </div>
     <div v-show="products.length > 0">
       <table class="checkout-table">
         <thead style="text-align: center">
@@ -50,17 +53,21 @@
         </tr>
         </tbody>
       </table>
-      <p><v-btn color="red lighten-2" large :disabled="!products.length" @click="checkout(products)" class='checkout-button'>Confirmar</v-btn></p>
-      <div class="chart">
+
+      <div class="chartCart">
         <h2>Histórico de Preço</h2>
         <div class="uk-margin-bottom">
           <vn-line :model="traffics"
                   :x-format="formatDate"
-                  y-format=".2f">
+                  y-format=".2f" :colors="colors">
           </vn-line>
         </div>
       </div>
+      <v-btn color="red lighten-2" large :disabled="!products.length" @click="checkout(products)" class='checkout-button'>Confirmar</v-btn>
     </div>
+    <v-btn large color="light-blue" class="listProduct-button" to="/">
+          {{ products.length > 0 ? "Continuar comprando" : "Lista de compras" }}
+    </v-btn>
     <!-- <p v-show="checkoutStatus">Confirmação {{ checkoutStatus }}.</p> -->
   </div>
 </template>
@@ -73,7 +80,8 @@
   export default {
     computed: {
       ...mapGetters({
-        products: 'cartProducts'
+        products: 'cartProducts',
+        dialogConfirm: 'dialogConfirm'
       }),
       // checkoutStatus () {
       //   this.$store.state.cart.dialog = true;
@@ -84,9 +92,9 @@
           return total + p.price * parseInt(p.quantity);
         }, 0);
       },
-      dialogConfirm (){
-        return { show: false, product: null}
-      },
+      // dialogConfirm (){
+      //   return { show: false, product: null }
+      // },
       traffics () {
         let historic = [];
         this.products.forEach(p => { historic.push(
@@ -104,6 +112,18 @@
         });
 
         return historic
+      },
+      colors () {
+        return ['#9F6633', '#4FB399', '#6F33FF', '#4FFF99', '#00B3E6',
+                '#E6B333', '#7366E6', '#999966', '#99FF99', '#B34D4D',
+                '#80B300', '#809900', '#E6B3B3', '#6680B3', '#66991A',
+                '#8F99E6', '#CCFF1A', '#8F1A66', '#E6331A', '#63FFCC',
+                '#66994D', '#B366CC', '#4D8000', '#B33300', '#CC80CC',
+                '#66664D', '#991AFF', '#E666FF', '#4DB3FF', '#4AB399',
+                '#E666B3', '#93991A', '#CC9999', '#B3B31A', '#00E680',
+                '#8D8066', '#809980', '#E6FF80', '#EAFF33', '#999933',
+                '#9F3380', '#CCCC00', '#66E64D', '#8D80CC', '#9900B3',
+                '#E64D66', '#5DB380', '#FF4D4D', '#99E6E6', '#6666FF'];
       }
     },
     methods: {
@@ -125,7 +145,7 @@
           this.removeToCart(product);
           this.dialogConfirm.show = false;
       },
-       formatDate (d){
+      formatDate (d){
         return d3.time.format("%d/%m/%Y")(new Date(d))
       }
     }
@@ -157,7 +177,10 @@
   color: white;
   float: right;
 }
-
+.listProduct-button {
+  color: white;
+  float: left;
+}
 .refrech-button{
   float: right;
   width: 23px;
@@ -177,10 +200,22 @@ input{
 table{
   text-align: center;
 }
-.chart {
+p {
+    margin: 16px;
+    text-align: center;
+}
+.cartNull {
+   align-items: center;
+}
+.chartCart {
     float: left;
-    margin: 10px 20px;
-    width: 90%;
+    margin: 10px 10px;
+    width: 98%;
     height: 350px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
 }
 </style>
