@@ -65,7 +65,7 @@
               area: true,
               values: _.map(product.historic, (ph) => {
                 return {
-                  x: ph.date,
+                  x: new Date(ph.date).getTime(),
                   y: ph.price
                 }
               })

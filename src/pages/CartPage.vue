@@ -96,7 +96,7 @@
               area: false,
               values: _.map(p.historic, (ph) => {
                 return {
-                  x: ph.date,
+                  x: new Date(ph.date).getTime(),
                   y: ph.price
                 }
               })
