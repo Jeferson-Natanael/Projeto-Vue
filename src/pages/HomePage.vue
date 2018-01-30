@@ -1,20 +1,27 @@
 <template>
-  <div class='product-container'>
-     <v-list v-for="(p, imageIndex) in allProducts" :key="p.id">
-        <v-list-tile ripple :to="{name: 'product', params: {id: p.id, page: '/'}}">
-            <v-list-tile-title v-text="p.title" />
-            <v-list-tile-title v-text="'R$' + p.price" />
-            <v-list-tile-action>
-              <div class="image"  @click="p.index = imageIndex"
-                :style="{ backgroundImage: 'url(' + p.images[0] + ')', width: '47%', height: '47%' }">
-              </div>
-            </v-list-tile-action>
-        </v-list-tile>
-     </v-list>
-    <!-- <div v-for="p in allProducts" :key="p.id" class="product">
-      <router-link :to="{name: 'product', params: {id: p.id}}" class="title">{{ p.title }}</router-link>
-      <span class="price">R$ {{ p.price }}</span>
-    </div> -->
+  <div>
+     <v-layout row wrap>
+      <v-flex v-for="(p, imageIndex) in allProducts" :key="p.id" xs3>
+        <v-card color="red lighten-2" class="white--text product-container" :to="{name: 'product', params: {id: p.id, page: '/'}}">
+            <v-container fluid grid-list-md>
+              <v-layout row>
+                <v-flex xs9>
+                  <div>
+                    <div class="headline">{{p.title}}</div>
+                    <div>{{'R$' + p.price}}</div>
+                  </div>
+                </v-flex>
+                <v-flex xs2>
+                    <v-card-media class="image" @click="p.index = imageIndex"
+                      :style="{ backgroundImage: 'url(' + p.images[0] + ')', width: '60px', height: '60px' }"
+                      contain
+                    ></v-card-media>
+                </v-flex>
+              </v-layout>
+            </v-container>
+        </v-card>
+      </v-flex>
+    </v-layout>
   </div>
 </template>
 
@@ -40,27 +47,8 @@
 </script>
 
 <style>
-/* .product {
-  padding: 10px 0px;
-  border-bottom: 1px solid #eee;
-  width: 400px;
-} */
-
-/* .title {
-  color: #312377;
-}
-
-.price {
-  float: right;
-} */
-
 .product-container {
-  width: 50%;
-}
-
-.product-container a {
-  text-decoration: none;
-  color:black;
+  padding: 20px;
 }
 
 .image {
@@ -71,5 +59,12 @@
     border: 1px solid #ebebeb;
     margin: 5px;
     cursor: pointer;
+}
+.card {
+    margin: 5px;
+    border-radius: 5px;
+}
+.layout.wrap {
+    margin: 10px;
 }
 </style>

@@ -22,7 +22,7 @@
     </div>
     <v-footer class="pa-3" color="light-blue">
       <v-spacer></v-spacer>
-      <div>© {{ new Date().getFullYear() }}</div>
+      <div class="white--text">Jeferson Natanael  -  © {{ new Date().getFullYear() }}</div>
     </v-footer>
     <!-- // <div class="help-text">
           //   <p>Vue.js 2 Single Page App (SPA) Example with vuex and vue-router.</p>

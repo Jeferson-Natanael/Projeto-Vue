@@ -83,18 +83,11 @@
         products: 'cartProducts',
         dialogConfirm: 'dialogConfirm'
       }),
-      // checkoutStatus () {
-      //   this.$store.state.cart.dialog = true;
-      //   return this.$store.state.cart.lastCheckout;
-      // },
       total () {
         return this.products.reduce((total, p) => {
           return total + p.price * parseInt(p.quantity);
         }, 0);
       },
-      // dialogConfirm (){
-      //   return { show: false, product: null }
-      // },
       traffics () {
         let historic = [];
         this.products.forEach(p => { historic.push(

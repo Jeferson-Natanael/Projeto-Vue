@@ -2,13 +2,16 @@
   <v-toolbar color="light-blue" light class="pa-3">
     <v-toolbar-title>
       <div class="menu-links">
-        <router-link to="/">Home</router-link>
+        <router-link to="/" style="float: left">
+          <v-icon color="white" x-large>home</v-icon>
+          <span>Home</span>
+        </router-link>
         <router-link to="/cart" style="float: right">
             <v-badge color="red lighten-2" v-model="show" left style="position: absolute">
               <span slot="badge">{{ cartCount }}</span>
-              <v-icon color="white">shopping_cart</v-icon>
+              <v-icon color="white"  x-large>shopping_cart</v-icon>
             </v-badge>
-            <span style="margin-left: 30px;">Carrinho</span>
+            <span style="margin-left: 40px; line-height: 40px;">Carrinho</span>
         </router-link>
       </div>
     </v-toolbar-title>
