@@ -2,13 +2,14 @@
   <div>
      <v-layout row wrap>
       <v-flex v-for="(p, imageIndex) in allProducts" :key="p.id" xs3>
-        <v-card color="red lighten-2" class="white--text product-container" :to="{name: 'product', params: {id: p.id, page: '/'}}">
+        <v-card :color="p.inventory ? 'red lighten-2' : 'grey darken-1'" class="white--text product-container" :to="{name: 'product', params: {id: p.id, page: '/'}}">
             <v-container fluid grid-list-md>
               <v-layout row>
                 <v-flex xs9>
                   <div>
                     <div class="headline">{{p.title}}</div>
                     <div>{{'R$' + p.price}}</div>
+                    <div v-show="!p.inventory">Fora de estoque</div>
                   </div>
                 </v-flex>
                 <v-flex xs2>
