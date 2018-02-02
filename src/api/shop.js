@@ -1620,28 +1620,25 @@ const _products = [
     ]
   },
 ]
-import SQL from 'sql.js';
+// import SQL from 'sql.js';
 
-const _shopDB = function(query) {
-  var xhr = new XMLHttpRequest();
-    xhr.open('GET', '/SHOPPING_DB.s3db', true);
-    xhr.responseType = 'arraybuffer';
+// const _shopDB = function(query) {
+//   var xhr = new XMLHttpRequest();
+//     xhr.open('GET', '/SHOPPING_DB.s3db', true);
+//     xhr.responseType = 'arraybuffer';
 
-    xhr.onload = function(e) {
-      var uInt8Array = new Uint8Array(this.response);
-      var db = new SQL.Database(uInt8Array);
-      var rlt = JSON.stringify(db.exec(query));
-     console.log(rlt)
-    };
-    xhr.send();
-}
+//     xhr.onload = function(e) {
+//       var uInt8Array = new Uint8Array(this.response);
+//       var db = new SQL.Database(uInt8Array);
+//       var rlt = JSON.stringify(db.exec(query));
+//      console.log(rlt)
+//     };
+//     xhr.send();
+// }
 
 export default {
   getProducts (cb) {
-    var sqlite3 = require('sqlite3').verbose();
-    var db = new sqlite3.Database('../SHOPPING_DB.s3db');
-    console.log(db)
-
+    setTimeout(() => cb(_products), 100)
     // var products = []
     // var images = []
     // var historic = []
@@ -1667,8 +1664,6 @@ export default {
     // });
     // console.log(products)
     // console.log(productsVelues)
-
-    setTimeout(() => cb(_products), 100)
   },
 
   buyProducts (products, cb, errorCb) {
