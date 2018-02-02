@@ -1620,9 +1620,54 @@ const _products = [
     ]
   },
 ]
+import SQL from 'sql.js';
+
+const _shopDB = function(query) {
+  var xhr = new XMLHttpRequest();
+    xhr.open('GET', '/SHOPPING_DB.s3db', true);
+    xhr.responseType = 'arraybuffer';
+
+    xhr.onload = function(e) {
+      var uInt8Array = new Uint8Array(this.response);
+      var db = new SQL.Database(uInt8Array);
+      var rlt = JSON.stringify(db.exec(query));
+     console.log(rlt)
+    };
+    xhr.send();
+}
 
 export default {
   getProducts (cb) {
+    var sqlite3 = require('sqlite3').verbose();
+    var db = new sqlite3.Database('../SHOPPING_DB.s3db');
+    console.log(db)
+
+    // var products = []
+    // var images = []
+    // var historic = []
+
+    // var rltProducts = _shopDB(" SELECT * FROM product ")
+    // var productsVelues = rltProducts[0].values
+
+    // productsVelues.forEach(item => {
+    //   var rltImages = _shopDB(" SELECT * FROM product WHERE id_product = " + item[0])
+    //   var imagesValues = rltImages[0].values
+    //   var rltImg = '{'
+    //   imagesValues.forEach(img => {
+    //     rltImg + img[1] + ','
+    //   })
+    //   images.push(rltImg + '}')
+    //   console.log(images)
+    //   products.push({ id: item[0],
+    //             title: item[1],
+    //             price: item[2],
+    //             inventory: item[3],
+    //             index: item[4],
+    //             images: images })
+    // });
+    // console.log(products)
+    // console.log(productsVelues)
+
     setTimeout(() => cb(_products), 100)
   },
 

@@ -39,10 +39,7 @@ const mutations = {
 const getters = {
   allProducts (state) {
     return state.all
-  },
-  // dialogConfirm (state) {
-  //   return state.dialog;
-  // }
+  }
 }
 
 export default {
